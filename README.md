@@ -1,5 +1,9 @@
-# Eagle_Loss
+# Eagle Loss Tensorflow Implementation
 [![arXiv](https://img.shields.io/badge/arXiv-2403.10695-b31b1b.svg)](http://arxiv.org/abs/2403.10695)
+
+A Tensorflow implementation of the 2D EAGLE Loss based on the work from Yipeng Sun et al. please cite their work below if you use this code. 
+
+## ORIGINAL README
 
 PyTorch implementation of the paper ["EAGLE: An Edge-Aware Gradient Localization Enhanced Loss for CT Image Reconstruction"](https://arxiv.org/abs/2403.10695). This repository includes the code for our novel Eagle-Loss function, designed to improve the sharpness of reconstructed CT image.
 
