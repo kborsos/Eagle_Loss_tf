@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras import layers, models
-from eagle_loss_tf import EagleLoss_tf
+from eagle_loss_tf_2D import EagleLoss_tf_2D
 disp = False # Display flag 
 
 # Simple AE model
@@ -39,7 +39,7 @@ model = create_denoising_autoencoder()
 
 # ------------------------------
 # define the eagle loss 
-custom_loss = EagleLoss_tf(patch_size=3, cutoff=0.5)
+custom_loss = EagleLoss_tf_2D(patch_size=3, cutoff=0.5)
 # ------------------------------
 
 # Compile model

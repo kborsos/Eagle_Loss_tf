@@ -1,9 +1,9 @@
 import tensorflow as tf
 import numpy as np
 
-class EagleLoss_tf(tf.keras.losses.Loss):
+class EagleLoss_tf_2D(tf.keras.losses.Loss):
     def __init__(self, patch_size, cutoff=0.5, **kwargs):
-        super(EagleLoss, self).__init__(**kwargs)
+        super(EagleLoss_tf_2D, self).__init__(**kwargs)
         self.patch_size = patch_size
         self.cutoff = cutoff
 
