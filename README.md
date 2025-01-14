@@ -1,7 +1,7 @@
-# Eagle Loss Tensorflow Implementation
+# Eagle Loss Tensorflow Implementation (2D/3D)
 [![arXiv](https://img.shields.io/badge/arXiv-2403.10695-b31b1b.svg)](http://arxiv.org/abs/2403.10695)
 
-A Tensorflow implementation of the 2D EAGLE Loss based on the work from Yipeng Sun et al. please cite their work below if you use this code. 
+2D and 3D Tensorflow implementations of the EAGLE Loss - based on the work from Yipeng Sun et al. please cite their paper below if you use this code. 
 
 ## ORIGINAL README
 
